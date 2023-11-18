@@ -1,0 +1,55 @@
+.shadow_box{
+        height:500px;
+        width:320px;
+        position:absolute;
+        top:10%;
+        left:35%;
+        border-radius: 20px;
+        box-shadow: 25px 26px 20px rgb(80, 79, 79);
+      }
+      .parent_box{
+       position:absolute;
+       top:0%;
+       left:0%;
+        height:500px;
+        width:320px;
+        background-color:aliceblue;
+        border-radius:20px;
+        box-shadow: 25px 26px 20px rgb(80, 79, 79);
+        box-shadow:inset 0px 0px 50px rgb(3, 55, 82);
+        z-index:10;
+      }
+      .text{
+        width:260px;
+        height:50px;
+        border-radius:20px;
+        box-shadow:10px 7px 10px  rgb(161, 158, 158);
+        font-size:3rem;
+      }
+     
+      button{
+        height:60px;
+        width:60px;
+        border-radius:100px;
+        background-color:white;
+        box-shadow:10px 7px 10px  rgb(161, 158, 158);
+        border:none;
+        margin-top:5px;
+        font-size:2rem;
+      }
+      button:hover{
+        height: 61px;
+        width:61px;
+        background-color:black;
+         /* border:2px solid rgb(246, 115, 76);  */
+        box-shadow:inset 0px 0px 25px rgb(135, 209, 249);
+        color:white;
+
+      }
+      body{
+       /* background-image:linear-gradient(rgb(103, 17, 243), rgb(207, 243, 77)); */
+       background-color:rgb(245, 235, 235); 
+      }
+      h1{
+        color:rgb(66, 64, 64);
+      }
